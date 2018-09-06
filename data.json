@@ -1,0 +1,49 @@
+{
+  "projects" : [
+    {
+      "id": 0,
+      "project_name":"Random Quote Generator",
+      "description":"An app that displays random famous quotes each time a button is clicked.",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link":"https://oddmarthon-lende.github.io/techdegree-project-1/",
+      "github_link":"https://github.com/oddmarthon-lende/techdegree-project-1",
+      "image_urls": ["/static/images/projects/0/0.png", "/static/images/projects/0/1.png", "/static/images/projects/0/2.png"]
+    },
+    {
+      "id": 1,
+      "project_name":"Pagination & Content Filter",
+      "description":"A web page that contains a long list by employing JavaScript to dynamically divide the list into pages.",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link":"https://oddmarthon-lende.github.io/techdegree-project-2/",
+      "github_link":"https://github.com/oddmarthon-lende/techdegree-project-2",
+      "image_urls": ["/static/images/projects/1/0.png", "/static/images/projects/1/1.png", "/static/images/projects/1/2.png"]
+    },
+    {
+      "id": 2,
+      "project_name":"Build an Interactive Form",
+      "description":"Used JavaScript to enhance an interactive registration form for a fictional conference called FullStack Conf.",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link":"https://oddmarthon-lende.github.io/techdegree-project-3/",
+      "github_link":"https://github.com/oddmarthon-lende/techdegree-project-3",
+      "image_urls": ["/static/images/projects/2/0.png", "/static/images/projects/2/1.png", "/static/images/projects/2/2.png"]
+    },
+    {
+      "id": 3,
+      "project_name":"Tic-Tac-Toe",
+      "description":"A fun two-person Tic-Tac-Toe game",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link":"https://oddmarthon-lende.github.io/techdegree-project-4/",
+      "github_link":"https://github.com/oddmarthon-lende/techdegree-project-4",
+      "image_urls": ["/static/images/projects/3/0.png", "/static/images/projects/3/1.png", "/static/images/projects/3/2.png", "/static/images/projects/3/3.png"]
+    },
+    {
+      "id": 4,
+      "project_name":"Use a Public API to Create an Employee Directory",
+      "description":"Created an employee directory by communicating with a third-party API (Application Programming Interface).",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link":"https://oddmarthon-lende.github.io/techdegree-project-5/",
+      "github_link":"https://github.com/oddmarthon-lende/techdegree-project-5",
+      "image_urls": ["/static/images/projects/4/0.png", "/static/images/projects/4/1.png", "/static/images/projects/4/2.png"]
+    }
+  ]
+}

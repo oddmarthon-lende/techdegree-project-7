@@ -1,13 +1,13 @@
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans Condensed', serif;
 }
 
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
   }
 
   h6{
@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button{
-  background-color: #333;
+  background-color: #2d2d4d;
 }
 
 .button:hover{
@@ -58,24 +58,24 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #2d2d4d;
   color: #fff;
   box-shadow: none !important;
 }
 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: #fff;
   }
 
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: #fff;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
   }
 
   .portfolio-me a:hover{
@@ -114,6 +114,7 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+    border-radius: 10px;
   }
 
   .portfolio-index a{

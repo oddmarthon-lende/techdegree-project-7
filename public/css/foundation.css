@@ -443,13 +443,14 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #fefefe;
+  background: #fdfdfd;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  }
 
 img {
   display: inline-block;
@@ -537,10 +538,12 @@ textarea {
 
 .cell {
   -ms-flex: 0 0 auto;
-      flex: 0 0 auto;
+  flex: 0 0 auto;
   min-height: 0px;
   min-width: 0px;
-  width: 100%; }
+  width: 100%;
+  /* border-radius: 10px; */
+  }
   .cell.auto {
     -ms-flex: 1 1 0px;
         flex: 1 1 0px; }
@@ -4991,7 +4994,9 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   border: solid 4px #fefefe;
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
-  line-height: 0; }
+  line-height: 0;
+  border-radius: 15px;
+  }
 
 a.thumbnail {
   transition: box-shadow 200ms ease-out; }
