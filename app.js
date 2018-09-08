@@ -14,7 +14,7 @@ app.use(routes);
 app.use((err, req, res, next) => {
   res.status(500);
   console.error(err);
-  res.render('error', {status: 500, message: "Ooops! Something went wrong."})
+  res.render('error', {status: 500, message: err.message, stack: err.stack})
 });
 
 app.use((req, res, next) => {

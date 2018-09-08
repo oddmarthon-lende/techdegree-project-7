@@ -18,7 +18,7 @@ router.get("/", (req, res) => {
   res.render("index", { projects });
 });
 
-router.get("/about", (req, res) => {
+router.get("/about", (req, res, next) => {
   res.render("about");
 });
 
